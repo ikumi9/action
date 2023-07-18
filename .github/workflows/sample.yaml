@@ -6,6 +6,6 @@ on:
 jobs:
     job-1:
         runs-on: ubuntu-latest
-
+        steps:
         - name: run shell commands
           run: echo working!!!
